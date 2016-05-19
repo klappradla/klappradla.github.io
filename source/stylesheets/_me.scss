@@ -1,5 +1,5 @@
 .me {
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
   font-family: $font-family-code;
   font-weight: 500;
@@ -17,6 +17,10 @@
     @extend .fatlink;
   }
 
+  p.indented {
+    margin-left: 1em;
+    text-indent: -1em
+  }
 }
 
 
