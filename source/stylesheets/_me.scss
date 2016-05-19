@@ -1,7 +1,22 @@
-html {
-  background: $white;
-  font-size: 1em;
-  color: $red-dark;
+.me {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: $font-family-code;
+  font-weight: 500;
+
+  img {
+    height: 18.75em;
+    margin-top: 6em;
+    border-radius: 50%;
+  }
+  h1 {
+    font-weight: 500;
+    font-size: 2em;
+  }
+  a {
+    @extend .fatlink;
+  }
+
 }
 
 

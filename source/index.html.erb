@@ -2,12 +2,18 @@
 title: Welcome to Middleman
 ---
 
-<div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
+<div class="me">
+  <div class="photo">
+    <%= image_tag 'me.jpg' %>
   </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+  <h1>Hi, I'm Max</h1>
+  <%= simple_format data.me.bio %>
+  <p>
+    Tools I like<br/>
+    <%= link_list data.me.tools %>
+  </p>
+  <p>
+    Find me<br/>
+    github twitter klappradla at gmail dot com
+  </p>
+</div>
