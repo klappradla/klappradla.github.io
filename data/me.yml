@@ -1,0 +1,22 @@
+bio: |
+  I'm a software engineer at home in UNIX-environments, passionate about web development, Open Source and making tech a better place.
+
+  I also love riding bikes.
+
+tools:
+  - txt: Ruby
+    link: ruby=https://www.ruby-lang.org/
+  - txt: Elixir
+    link: http://elixir-lang.org/
+  - txt: JS
+    link: https://www.javascript.com/
+  - txt: Ruby on Rails
+    link: http://rubyonrails.org/
+  - txt: SASS
+    link: http://sass-lang.com/
+  - txt: PostgreSQL
+    link: http://sass-lang.com/
+  - txt: ZSH
+    link: http://www.zsh.org/
+  - txt: NGINX
+    link: http://nginx.org/
