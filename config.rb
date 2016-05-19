@@ -18,6 +18,7 @@ page '/*.txt', layout: false
 
 # General configuration
 activate :autoprefixer
+activate :protect_emails
 
 # Reload the browser automatically whenever files change
 configure :development do
