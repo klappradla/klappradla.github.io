@@ -29,9 +29,3 @@ a.fatlink {
   	transform: translateY(0px);
   }
 }
-
-a.biglink {
-  @extend .fatlink;
-  font-size: 3em;
-  margin-right: 0.5em;
-}

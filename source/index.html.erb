@@ -3,20 +3,18 @@ title: Max | Klappradla
 ---
 
 <div class="me">
-  <div class="photo">
-    <%= image_tag 'me.jpg' %>
-  </div>
+  <%= image_tag 'me.jpg', class: 'photo' %>
   <h1>Hi, I'm Max</h1>
   <%= simple_format data.me.bio %>
   <p class="indented">
     Tools I like:<br/>
     <%= link_list data.me.tools %>
   </p>
-  <p class="indented">
-    Elsewhere:<br/>
-    <% link_to '#', class: 'biglink' do %><span class="fontawesome-github" aria-hidden="true"></span><% end %>
-    <% link_to '#', class: 'biglink' do %><span class="fontawesome-twitter" aria-hidden="true"></span><% end %>
-    <% link_to '#', class: 'biglink' do %><span class="fontawesome-linkedin" aria-hidden="true"></span><% end %>
-    <% link_to '#', class: 'biglink' do %><span class="fontawesome-envelope" aria-hidden="true"></span><% end %>
+  <p class="indented me-social">
+    Me elsewhere:<br/>
+    <%= link_to tag(:span, class: 'fontawesome-github-alt'), 'https://github.com/klappradla', target: :_blank %>
+    <%= link_to tag(:span, class: 'fontawesome-twitter'), 'https://twitter.com/klappradla', target: :_blank %>
+    <%= link_to tag(:span, class: 'fontawesome-linkedin'), 'https://at.linkedin.com/in/maxmulatz', target: :_blank %>
+    <%= mail_to 'klappradla@gmail.com', tag(:span, class: 'fontawesome-envelope-alt') %>
   </p>
 </div>
