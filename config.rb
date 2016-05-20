@@ -19,6 +19,10 @@ page '/*.txt', layout: false
 # General configuration
 activate :autoprefixer
 activate :protect_emails
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+end
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -39,8 +43,8 @@ end
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 end

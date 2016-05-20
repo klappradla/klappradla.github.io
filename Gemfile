@@ -13,6 +13,7 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-autoprefixer'
 gem 'middleman-protect-emails'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
 # Thoughtbot's sass toolkit
 gem 'bourbon'

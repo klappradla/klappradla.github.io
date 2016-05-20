@@ -1,11 +1,16 @@
 $red-dark: #1F0318;
 $red-light: #e63946;
-
-// $white: #e5d4ed;
 $white: #F1F2EB;
-
 $black-dark: #353238;
 $black-light: #696d7d;
 
 $font-family-code: 'Source Code Pro', 'Monaco';
 $font-family-text: 'Source Sans Pro', sans-serif;
+
+@mixin breakpoint($point) {
+  @if $point == mobile {
+    @media (max-width: 37.5em) {
+      @content ;
+    }
+  }
+}
