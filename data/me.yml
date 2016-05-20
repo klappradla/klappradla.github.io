@@ -10,7 +10,7 @@ tools:
     link: http://elixir-lang.org/
   - txt: JS
     link: https://www.javascript.com/
-  - txt: Ruby on Rails
+  - txt: Rails
     link: http://rubyonrails.org/
   - txt: SASS
     link: http://sass-lang.com/

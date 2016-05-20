@@ -16,8 +16,10 @@ title: Max | Klappradla
     Email:<br/>
     <%= mail_to 'klappradl@gmail.com' %>
   </p>
-  <p class="indented">
-    Find me:<br/>
-    github twitter linked_in
+  <p class="indented tryout">
+    Elsewhere:<br/>
+    <% link_to '#', class: 'biglink' do %><span class="fontawesome-github" aria-hidden="true"></span><% end %>
+    <% link_to '#', class: 'biglink' do %><span class="fontawesome-twitter" aria-hidden="true"></span><% end %>
+    <% link_to '#', class: 'biglink' do %><span class="fontawesome-linkedin" aria-hidden="true"></span><% end %>
   </p>
 </div>
