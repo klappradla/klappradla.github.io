@@ -5,7 +5,7 @@ bio: |
 
 tools:
   - txt: Ruby
-    link: ruby=https://www.ruby-lang.org/
+    link: https://www.ruby-lang.org/
   - txt: Elixir
     link: http://elixir-lang.org/
   - txt: JS
@@ -15,7 +15,7 @@ tools:
   - txt: SASS
     link: http://sass-lang.com/
   - txt: PostgreSQL
-    link: http://sass-lang.com/
+    link: http://www.postgresql.org/
   - txt: ZSH
     link: http://www.zsh.org/
   - txt: NGINX
