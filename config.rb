@@ -19,6 +19,11 @@ page '/*.txt', layout: false
 # General configuration
 activate :autoprefixer
 activate :protect_emails
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-79221735-1'
+  ga.anonymize_ip = false
+  ga.development = false
+end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
