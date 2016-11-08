@@ -4,7 +4,7 @@ title: Max | Klappradla
 <main class="me">
   <%= image_tag 'me.jpg', class: 'photo' %>
   <h1>Hi, I'm Max</h1>
-  <%= simple_format data.me.bio %>
+  <%= auto_link data.me.bio, data.me.links %>
   <p class="indented">
     Tools I like:<br/>
     <%= link_list data.me.tools %>
