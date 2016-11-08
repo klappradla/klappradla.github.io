@@ -17,6 +17,7 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+activate :pry
 activate :autoprefixer
 activate :protect_emails
 activate :google_analytics do |ga|

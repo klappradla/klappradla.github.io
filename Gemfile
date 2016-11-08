@@ -10,6 +10,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 gem 'middleman', '>= 4.1.0'
+gem 'middleman-pry'
 gem 'middleman-livereload'
 gem 'middleman-autoprefixer'
 gem 'middleman-protect-emails'
