@@ -1,7 +1,7 @@
 bio: |
   a Rubyist fallen in love with Elixir, passionate about clean code, diversity and sustainainablity
 
-  I write code at [Runtastic] and do things at [RGSoC].
+  I write code at [bitcrowd] and do things at [RGSoC].
 
   I also love riding bikes.
 
@@ -12,5 +12,5 @@ tools:
   PostgreSQL: http://www.postgresql.org/
 
 links:
-  runtastic: https://www.runtastic.com/
+  bitcrowd: https://bitcrowd.com/
   rgsoc: http://rgsoc.org
