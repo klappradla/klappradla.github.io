@@ -1,5 +1,5 @@
 bio: |
-  a Rubyist fallen in love with Elixir, passionate about clean code, diversity and sustainainablity
+  a Rubyist fallen in love with Elixir and React, passionate about clean code, diversity and sustainainablity
 
   I write code at [bitcrowd] and do things at [RGSoC].
 
@@ -8,7 +8,7 @@ bio: |
 tools:
   Ruby: https://www.ruby-lang.org/
   Elixir: http://elixir-lang.org/
-  Go: https://golang.org/
+  React: https://reactjs.org/
   PostgreSQL: http://www.postgresql.org/
 
 links:
