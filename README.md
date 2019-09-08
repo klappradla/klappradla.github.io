@@ -1,5 +1,3 @@
-[![Dependency Status](https://gemnasium.com/badges/github.com/klappradla/klappradla.github.io.svg)](https://gemnasium.com/github.com/klappradla/klappradla.github.io)
-
 # klappradla.github.io
 
 Personal side build with [Middleman][1]. The `master` branch is deployed to Github pages.
