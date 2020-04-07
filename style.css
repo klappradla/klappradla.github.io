@@ -5,11 +5,14 @@
   --color-watermelon: #FD4659;
 }
 
-html {
-  font-size: 10px;
-}
+html { font-size: 10px; }
 
 body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   padding: 0;
   margin: 0;
 
@@ -26,21 +29,16 @@ main {
   flex-direction: column;
 
   max-width: 600px;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
+  margin: auto;
+  padding: 2rem;
 }
 
 h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
 }
+
+h2 { font-size: inherit; }
 
 img {
   max-width: 450px;
@@ -51,31 +49,25 @@ img {
   border-radius: 50%;
 }
 
-.emoji {
-  font-size: 1.7rem;
+aside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
+.text-emoji { font-size: 1.7rem; }
 
-h2 {
-  font-size: inherit;
-}
-
-.link__inline {
-  color: var(--color-watermelon, pink);
+.link-text {
   text-decoration: none;
+  color: var(--color-watermelon, pink);
 }
 
-.link__inline:hover {
+.link-text:hover {
   border-bottom: 0.5rem solid;
   transition: border-bottom 0.25s;
 }
 
-.section-links {
-  display: flex;
-  flex-direction: row;
-}
-
-.icon {
+.svg-icon {
   display: block;
 
   width: 4.5rem;
@@ -86,8 +78,7 @@ h2 {
   fill: var(--color-watermelon, pink);
 }
 
-.icon:hover {
-  border-bottom: 0.5rem solid var(--color-watermelon, pink);
-
+.svg-icon:hover {
+  border-bottom: 0.5rem solid;
   transition: border-bottom 0.25s;
 }
