@@ -7,12 +7,11 @@
 
 html { font-size: 10px; }
 
-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 400px) {
+  html { font-size: 9px; }
+}
 
+body {
   padding: 0;
   margin: 0;
 
@@ -41,12 +40,20 @@ h1 {
 h2 { font-size: inherit; }
 
 img {
-  max-width: 450px;
   width: 100%;
+  max-width: 450px;
   height: auto;
   margin: auto;
 
   border-radius: 50%;
+}
+
+@media (max-height: 900px) {
+  img { max-width: 300px; }
+}
+
+@media (max-width: 400px) {
+  img { max-width: 250px; }
 }
 
 aside {
@@ -57,13 +64,10 @@ aside {
 
 .text-emoji { font-size: 1.7rem; }
 
-.link-text {
-  text-decoration: none;
-  color: var(--color-watermelon, pink);
-}
+.link-text { color: var(--color-watermelon, pink); }
 
-.link-text:hover {
-  border-bottom: 0.5rem solid;
+.link:hover {
+  border-bottom: 0.5rem solid var(--color-watermelon, pink);
   transition: border-bottom 0.25s;
 }
 
@@ -76,9 +80,4 @@ aside {
   margin-right: 3rem;
 
   fill: var(--color-watermelon, pink);
-}
-
-.svg-icon:hover {
-  border-bottom: 0.5rem solid;
-  transition: border-bottom 0.25s;
 }
