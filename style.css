@@ -1,0 +1,93 @@
+:root {
+  --font-monospace: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  --color-black: #1B2431;
+  --color-white: #FDFDFE;
+  --color-watermelon: #FD4659;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--font-monospace, monospace);
+  color: var(--color-black, black);
+
+  background-color: var(--color-white, white);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 600px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+  border-radius: 50%;
+}
+
+.emoji {
+  font-size: 1.7rem;
+}
+
+
+h2 {
+  font-size: inherit;
+}
+
+.link__inline {
+  color: var(--color-watermelon, pink);
+  text-decoration: none;
+}
+
+.link__inline:hover {
+  border-bottom: 0.5rem solid;
+  transition: border-bottom 0.25s;
+}
+
+.section-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  display: block;
+
+  width: 4.5rem;
+  height: 4.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 3rem;
+
+  fill: var(--color-watermelon, pink);
+}
+
+.icon:hover {
+  border-bottom: 0.5rem solid var(--color-watermelon, pink);
+
+  transition: border-bottom 0.25s;
+}
