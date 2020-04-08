@@ -7,8 +7,12 @@
 
 html { font-size: 10px; }
 
-@media (max-width: 400px) {
+@media (max-width: 900px) {
   html { font-size: 9px; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 8px; }
 }
 
 body {
@@ -53,7 +57,7 @@ img {
 }
 
 @media (max-width: 400px) {
-  img { max-width: 250px; }
+  img { max-width: 200px; }
 }
 
 aside {
