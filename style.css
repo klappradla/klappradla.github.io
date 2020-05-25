@@ -62,10 +62,24 @@ img {
   img { max-width: 200px; }
 }
 
-aside {
+ul {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  flex-wrap: wrap;
+
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: block;
+
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+
+  list-style: none;
 }
 
 .link { color: var(--color-gray, gray); }
@@ -73,21 +87,4 @@ aside {
 .link:hover {
   color: var(--color-black, black);
   transition: color 0.25s;
-}
-
-.svg-icon {
-  display: block;
-
-  width: 4.5rem;
-  height: 4.5rem;
-  padding-bottom: 0.5rem;
-  margin-right: 3rem;
-
-  fill: var(--color-gray, gray);
-}
-
-.svg-icon:hover {
-  fill: var(--color-black, gray);
-
-  transition: fill 0.25s;
 }
